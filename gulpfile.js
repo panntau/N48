@@ -191,7 +191,7 @@ gulp.task('sass', function() {
         .pipe($.size({
             title: 'styles In Size'
         }))
-        .pipe($.pleeease(styles.pleeeaseOpt))
+       // .pipe($.pleeease(styles.pleeeaseOpt))
         .pipe($.size({
             title: 'styles Out Size'
         }))
