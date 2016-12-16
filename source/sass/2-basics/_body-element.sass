@@ -6,3 +6,10 @@ body
   color: $text-color
   -webkit-font-smoothing: antialiased
   -webkit-text-size-adjust: 100%
+.l-container
+  width: auto
+  @include outer-container
+  text-align: center
+  @media (min-width: 900px)
+    width: 900px
+    margin: 0 auto

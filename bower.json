@@ -2,7 +2,7 @@
   "name": "dev-tips-starter-kit",
   "version": "1.0.0",
   "authors": [
-    "Maikel Rivero Dorta <mriverodorta@gmail.com>"
+    "Marek Fronc <marek.fronc@gmail.com>"
   ],
   "description": "Simple structure for a simple start to a simple site.",
   "main": "build/index.html",
@@ -26,5 +26,6 @@
   ],
   "dependencies": {
     "jquery": "~2.1.4"
+    "neat":   "~1.8.0"
   }
 }
